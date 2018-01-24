@@ -1,5 +1,6 @@
 package br.com.andersonsoares.utils
 
+import android.content.Context
 import java.io.File
 import android.graphics.Bitmap
 import android.media.ExifInterface
@@ -10,15 +11,41 @@ import java.io.FileInputStream
 import java.io.FileNotFoundException
 import java.lang.Exception
 import android.content.Intent
+import android.net.Uri
 import android.webkit.MimeTypeMap
-
-
+import android.util.Base64
+import java.io.ByteArrayOutputStream
 
 
 /**
  * Created by andersonsoares on 23/01/2018.
  */
 
+
+fun Uri.getBase64FromBitmap(context: Context): String {
+    try {
+        val byteBuffer = ByteArrayOutputStream()
+        val iStream = context.getContentResolver().openInputStream(this)
+        val bufferSize = 1024
+        val buffer = ByteArray(bufferSize)
+
+        var len = 0
+        while(len != -1) {
+            byteBuffer.write(buffer, 0, len)
+            len = iStream.read(buffer)
+        }
+        val byteArray = byteBuffer.toByteArray()
+
+        val baseImage = Base64.encodeToString(byteArray, Base64.DEFAULT)
+
+        Log.d("tamanho string Base64", baseImage.toByteArray().size.toString())
+
+        return baseImage
+    } catch (ex: Exception) {
+        return ""
+    }
+
+}
 
 fun File.decodeFile(requiredHeight: Int): Bitmap? {
     try {
