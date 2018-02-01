@@ -12,6 +12,7 @@ import java.io.FileNotFoundException
 import java.lang.Exception
 import android.content.Intent
 import android.net.Uri
+import android.os.AsyncTask
 import android.webkit.MimeTypeMap
 import android.util.Base64
 import java.io.ByteArrayOutputStream
@@ -22,7 +23,7 @@ import java.io.ByteArrayOutputStream
  */
 
 
-fun Uri.getBase64FromBitmap(context: Context): String {
+fun Uri.getBase64(context: Context): String {
     try {
         val byteBuffer = ByteArrayOutputStream()
         val iStream = context.getContentResolver().openInputStream(this)
@@ -146,3 +147,5 @@ fun File.getMineType(): String {
     val extension = getExtension()
     return myMime.getMimeTypeFromExtension(extension)
 }
+
+

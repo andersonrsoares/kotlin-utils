@@ -8,8 +8,9 @@ import android.util.Log
 import android.view.inputmethod.InputMethodManager
 import java.lang.Exception
 import android.R.attr.onClick
+import android.app.AlertDialog
 import android.content.DialogInterface
-import android.support.v7.app.AlertDialog
+
 
 
 /**
@@ -95,6 +96,3 @@ fun Activity.showDialog(title:String,message:String,positive:String,negative:Str
         Log.e("showDialog", e.toString(), e)
     }
 }
-
-//val Activity.bar: Int
-//    get() = 1
