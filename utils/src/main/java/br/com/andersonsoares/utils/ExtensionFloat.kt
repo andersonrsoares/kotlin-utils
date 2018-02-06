@@ -8,6 +8,10 @@ import java.util.*
  */
 
 
-fun Float.toCurrency(): String {
+fun Float.toCurrencyBR(): String {
     return NumberFormat.getCurrencyInstance(Locale("pt", "BR")).format(this)
+}
+
+fun Float.toCurrency(): String {
+    return NumberFormat.getCurrencyInstance(Locale.getDefault()).format(this)
 }

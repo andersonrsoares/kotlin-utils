@@ -5,9 +5,10 @@ import android.graphics.BitmapFactory
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import br.com.andersonsoares.utils.getBase64
-import br.com.andersonsoares.utils.hideKeyboard
-import br.com.andersonsoares.utils.showDialog
+import br.com.andersonsoares.utils.*
+import kotlinx.android.synthetic.main.activity_main.*
+import org.jetbrains.anko.sdk25.coroutines.onClick
+import java.io.File
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,5 +25,13 @@ class MainActivity : AppCompatActivity() {
         v.getBase64 { base ->
             Log.d("va",base)
         }
+
+        v.getBase64 {
+
+        }
+        text.onClick {
+
+        }
+
     }
 }
