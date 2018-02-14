@@ -29,3 +29,27 @@ fun Bitmap.getBase64(callback:(base64: String) -> Unit) {
     }
 }
 
+
+// Scale and maintain aspect ratio given a desired width
+// BitmapScaler.scaleToFitWidth(bitmap, 100);
+fun Bitmap.scaleToFitWidth(width: Int): Bitmap {
+    val factor = width / this.width.toFloat()
+    return if (this.width > width) {
+        Bitmap.createScaledBitmap(this, width, (this.height * factor).toInt(), true)
+    } else {
+        Bitmap.createBitmap(this)
+    }
+
+}
+
+
+// Scale and maintain aspect ratio given a desired height
+// BitmapScaler.scaleToFitHeight(bitmap, 100);
+fun Bitmap.scaleToFitHeight(height: Int): Bitmap {
+    val factor = height / this.height.toFloat()
+    return if (this.height > height) {
+        Bitmap.createScaledBitmap(this, (this.width * factor).toInt(), height, true)
+    } else {
+        Bitmap.createBitmap(this)
+    }
+}

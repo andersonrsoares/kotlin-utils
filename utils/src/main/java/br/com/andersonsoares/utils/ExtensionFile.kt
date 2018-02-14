@@ -15,6 +15,7 @@ import android.net.Uri
 import android.os.AsyncTask
 import android.webkit.MimeTypeMap
 import android.util.Base64
+import org.jetbrains.anko.doAsync
 import java.io.ByteArrayOutputStream
 
 
@@ -46,6 +47,49 @@ fun Uri.getBase64(context: Context): String {
         return ""
     }
 
+}
+
+fun Uri.getBase64(context: Context,callback:(base64: String) -> Unit) {
+    doAsync {
+        val base  = getBase64(context)
+        callback(base)
+    }
+}
+
+fun File.getBase64(): String {
+    var baseImage = ""
+    try {
+        var byteArray: ByteArray? = null
+        val inputStream = FileInputStream(this)
+        val bos = ByteArrayOutputStream()
+        val b = ByteArray(1024 * 8)
+        var bytesRead = 0
+
+        var len = 0
+        while(len != -1) {
+            bos.write(b, 0, len)
+            len = inputStream.read(b)
+        }
+        byteArray = bos.toByteArray()
+
+        baseImage = Base64.encodeToString(byteArray, Base64.NO_WRAP)
+    } catch (e: OutOfMemoryError) {
+        e.printStackTrace()
+        return ""
+    } catch (e: Throwable) {
+        e.printStackTrace()
+        return ""
+    }
+
+
+    return baseImage
+}
+
+fun File.getBase64(callback:(base64: String) -> Unit) {
+    doAsync {
+        val base  = getBase64()
+        callback(base)
+    }
 }
 
 fun File.decodeFile(requiredHeight: Int): Bitmap? {

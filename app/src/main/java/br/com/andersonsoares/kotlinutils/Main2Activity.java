@@ -3,6 +3,8 @@ package br.com.andersonsoares.kotlinutils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import br.com.andersonsoares.utils.ExtensionActivityKt;
+
 public class Main2Activity extends AppCompatActivity {
 
     @Override
@@ -10,6 +12,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
+        ExtensionActivityKt.showKeyboard(this);
 
        // ExtensionActivityKt.showKeyboard();
     }

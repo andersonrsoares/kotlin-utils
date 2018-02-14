@@ -26,12 +26,6 @@ class MainActivity : AppCompatActivity() {
             Log.d("va",base)
         }
 
-        v.getBase64 {
-
-        }
-        text.onClick {
-
-        }
-
+        Log.d("va1","")
     }
 }
