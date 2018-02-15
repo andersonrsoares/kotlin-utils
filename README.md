@@ -10,7 +10,7 @@ Implementações úteis em kotlin
 Add the following dependency to your module `build.gradle` file:
 ```gradle
 dependencies {
-            compile 'com.github.andersonrsoares:kotlin-utils:1.0.1'
+            compile 'com.github.andersonrsoares:kotlin-utils:1.0.2'
     }
 ```
 
