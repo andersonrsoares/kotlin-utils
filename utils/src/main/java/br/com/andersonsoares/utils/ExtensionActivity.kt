@@ -9,6 +9,7 @@ import android.view.inputmethod.InputMethodManager
 import java.lang.Exception
 import android.R.attr.onClick
 import android.app.AlertDialog
+import android.content.ComponentName
 import android.content.DialogInterface
 import android.widget.Toast
 import android.content.Intent
@@ -164,6 +165,15 @@ fun Activity.openMaps(latitude:String,longitude:String){
     } catch (e2: Exception) {
         Toast.makeText(this, "Não é possivel abrir o Waze.", Toast.LENGTH_SHORT).show()
     }
+}
+
+fun Intent(packageContext: Context, cls: Class<*>) {
+
+}
+
+
+fun Activity.open(cls: Class<*>){
+    startActivity(Intent(this,cls))
 }
 
 

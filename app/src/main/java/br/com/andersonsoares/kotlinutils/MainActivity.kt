@@ -1,5 +1,6 @@
 package br.com.andersonsoares.kotlinutils
 
+import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.support.v7.app.AppCompatActivity
@@ -16,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         hideKeyboard()
+
+        //val intent = Intent(this,)
 
         showDialog("teste","ewwerre",{ dialog ->
             dialog.dismiss()

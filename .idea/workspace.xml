@@ -7,12 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="486f7cee-0338-45b0-8e0a-79d4d2e29dd4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/MainActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/MainActivity.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionActivity.kt" afterPath="$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionActivity.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/utils.iml" afterPath="$PROJECT_DIR$/utils/utils.iml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,13 +64,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExtensionActivity.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExtensionActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1486">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="438">
+              <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
               <folding>
-                <element signature="e#37#497#0" expanded="true" />
+                <element signature="e#37#534#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main2Activity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/Main2Activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/MainActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Intent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/content/Intent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="8673" column="36" lean-forward="false" selection-start-line="8673" selection-start-column="36" selection-end-line="8673" selection-end-column="52" />
+              <folding>
+                <element signature="e#259453#259454#0" expanded="true" />
+                <element signature="e#259486#259487#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,11 +112,145 @@
       <file leaf-file-name="Activity.java" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/app/Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1007">
+            <state relative-caret-position="68250">
               <caret line="4757" column="16" lean-forward="false" selection-start-line="4757" selection-start-column="16" selection-end-line="4757" selection-end-column="16" />
               <folding>
-                <element signature="e#202739#202740#0" expanded="true" />
-                <element signature="e#202787#202788#0" expanded="true" />
+                <element signature="e#0#321500#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#40825#40826#0" expanded="false" />
+                <element signature="e#40855#40856#0" expanded="false" />
+                <element signature="e#41242#41243#0" expanded="false" />
+                <element signature="e#41277#41278#0" expanded="false" />
+                <element signature="e#41385#41386#0" expanded="false" />
+                <element signature="e#41420#41421#0" expanded="false" />
+                <element signature="e#41523#41524#0" expanded="false" />
+                <element signature="e#41561#41562#0" expanded="false" />
+                <element signature="e#41675#41676#0" expanded="false" />
+                <element signature="e#41705#41706#0" expanded="false" />
+                <element signature="e#41819#41820#0" expanded="false" />
+                <element signature="e#41856#41857#0" expanded="false" />
+                <element signature="e#42204#42205#0" expanded="false" />
+                <element signature="e#42234#42235#0" expanded="false" />
+                <element signature="e#42371#42372#0" expanded="false" />
+                <element signature="e#42423#42424#0" expanded="false" />
+                <element signature="e#42765#42766#0" expanded="false" />
+                <element signature="e#42838#42839#0" expanded="false" />
+                <element signature="e#52863#52864#0" expanded="false" />
+                <element signature="e#52915#52916#0" expanded="false" />
+                <element signature="e#56504#56505#0" expanded="false" />
+                <element signature="e#56534#56535#0" expanded="false" />
+                <element signature="e#60148#60149#0" expanded="false" />
+                <element signature="e#60195#60196#0" expanded="false" />
+                <element signature="e#61047#61048#0" expanded="false" />
+                <element signature="e#61086#61087#0" expanded="false" />
+                <element signature="e#75100#75101#0" expanded="false" />
+                <element signature="e#75128#75129#0" expanded="false" />
+                <element signature="e#75908#75909#0" expanded="false" />
+                <element signature="e#75935#75936#0" expanded="false" />
+                <element signature="e#96315#96316#0" expanded="false" />
+                <element signature="e#96356#96357#0" expanded="false" />
+                <element signature="e#100671#100672#0" expanded="false" />
+                <element signature="e#100698#100699#0" expanded="false" />
+                <element signature="e#102396#102397#0" expanded="false" />
+                <element signature="e#102423#102424#0" expanded="false" />
+                <element signature="e#104261#104262#0" expanded="false" />
+                <element signature="e#104315#104316#0" expanded="false" />
+                <element signature="e#111731#111732#0" expanded="false" />
+                <element signature="e#111782#111783#0" expanded="false" />
+                <element signature="e#118632#118633#0" expanded="false" />
+                <element signature="e#118684#118685#0" expanded="false" />
+                <element signature="e#118854#118855#0" expanded="false" />
+                <element signature="e#118908#118909#0" expanded="false" />
+                <element signature="e#126835#126836#0" expanded="false" />
+                <element signature="e#126863#126864#0" expanded="false" />
+                <element signature="e#128238#128239#0" expanded="false" />
+                <element signature="e#128266#128267#0" expanded="false" />
+                <element signature="e#131056#131057#0" expanded="false" />
+                <element signature="e#131084#131085#0" expanded="false" />
+                <element signature="e#132314#132315#0" expanded="false" />
+                <element signature="e#132342#132343#0" expanded="false" />
+                <element signature="e#142559#142560#0" expanded="false" />
+                <element signature="e#142586#142587#0" expanded="false" />
+                <element signature="e#154521#154522#0" expanded="false" />
+                <element signature="e#154558#154559#0" expanded="false" />
+                <element signature="e#158869#158870#0" expanded="false" />
+                <element signature="e#158926#158927#0" expanded="false" />
+                <element signature="e#159262#159263#0" expanded="false" />
+                <element signature="e#159319#159320#0" expanded="false" />
+                <element signature="e#159621#159622#0" expanded="false" />
+                <element signature="e#159659#159660#0" expanded="false" />
+                <element signature="e#161532#161533#0" expanded="false" />
+                <element signature="e#161559#161560#0" expanded="false" />
+                <element signature="e#163261#163262#0" expanded="false" />
+                <element signature="e#163302#163303#0" expanded="false" />
+                <element signature="e#163496#163497#0" expanded="false" />
+                <element signature="e#163541#163542#0" expanded="false" />
+                <element signature="e#165251#165252#0" expanded="false" />
+                <element signature="e#165287#165288#0" expanded="false" />
+                <element signature="e#172336#172337#0" expanded="false" />
+                <element signature="e#172371#172372#0" expanded="false" />
+                <element signature="e#175694#175695#0" expanded="false" />
+                <element signature="e#175740#175741#0" expanded="false" />
+                <element signature="e#177495#177496#0" expanded="false" />
+                <element signature="e#177549#177550#0" expanded="false" />
+                <element signature="e#204580#204581#0" expanded="false" />
+                <element signature="e#204626#204627#0" expanded="false" />
+                <element signature="e#220459#220460#0" expanded="false" />
+                <element signature="e#220486#220487#0" expanded="false" />
+                <element signature="e#227543#227544#0" expanded="false" />
+                <element signature="e#227570#227571#0" expanded="false" />
+                <element signature="e#231249#231250#0" expanded="false" />
+                <element signature="e#231281#231282#0" expanded="false" />
+                <element signature="e#231460#231461#0" expanded="false" />
+                <element signature="e#231493#231494#0" expanded="false" />
+                <element signature="e#232057#232058#0" expanded="false" />
+                <element signature="e#232103#232104#0" expanded="false" />
+                <element signature="e#234044#234045#0" expanded="false" />
+                <element signature="e#234098#234099#0" expanded="false" />
+                <element signature="e#235812#235813#0" expanded="false" />
+                <element signature="e#235836#235837#0" expanded="false" />
+                <element signature="e#238012#238013#0" expanded="false" />
+                <element signature="e#238066#238067#0" expanded="false" />
+                <element signature="e#247972#247973#0" expanded="false" />
+                <element signature="e#248005#248006#0" expanded="false" />
+                <element signature="e#250282#250283#0" expanded="false" />
+                <element signature="e#250324#250325#0" expanded="false" />
+                <element signature="e#250916#250917#0" expanded="false" />
+                <element signature="e#250945#250946#0" expanded="false" />
+                <element signature="e#250985#250986#0" expanded="false" />
+                <element signature="e#251019#251020#0" expanded="false" />
+                <element signature="e#257859#257860#0" expanded="false" />
+                <element signature="e#257918#257919#0" expanded="false" />
+                <element signature="e#259327#259328#0" expanded="false" />
+                <element signature="e#259382#259383#0" expanded="false" />
+                <element signature="e#260539#260540#0" expanded="false" />
+                <element signature="e#260566#260567#0" expanded="false" />
+                <element signature="e#271571#271572#0" expanded="false" />
+                <element signature="e#271599#271600#0" expanded="false" />
+                <element signature="e#272591#272592#0" expanded="false" />
+                <element signature="e#272621#272622#0" expanded="false" />
+                <element signature="e#290603#290604#0" expanded="false" />
+                <element signature="e#290669#290670#0" expanded="false" />
+                <element signature="e#291919#291920#0" expanded="false" />
+                <element signature="e#291951#291952#0" expanded="false" />
+                <element signature="e#303814#303815#0" expanded="false" />
+                <element signature="e#303845#303846#0" expanded="false" />
+                <element signature="e#312724#312725#0" expanded="false" />
+                <element signature="e#312767#312768#0" expanded="false" />
+                <element signature="e#316290#316291#0" expanded="false" />
+                <element signature="e#316322#316323#0" expanded="false" />
+                <element signature="e#317813#317814#0" expanded="false" />
+                <element signature="e#317870#317871#0" expanded="false" />
+                <element signature="e#318144#318145#0" expanded="false" />
+                <element signature="e#318189#318190#0" expanded="false" />
+                <element signature="e#318842#318843#0" expanded="false" />
+                <element signature="e#318886#318887#0" expanded="false" />
+                <element signature="e#318953#318954#0" expanded="false" />
+                <element signature="e#319014#319015#0" expanded="false" />
+                <element signature="e#320784#320785#0" expanded="false" />
+                <element signature="e#320834#320835#0" expanded="false" />
+                <element signature="e#321260#321261#0" expanded="false" />
+                <element signature="e#321321#321322#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -94,19 +259,11 @@
       <file leaf-file-name="ExtensionContext.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionContext.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
+            <state relative-caret-position="750">
               <caret line="57" column="18" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="34" />
-              <folding />
+              <folding>
+                <element signature="e#37#349#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1710,712 +1867,6 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/retrofit2LoaderCallAdapter">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':retrofit2LoaderCallAdapter'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="packageReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="mergeReleaseConsumerProguardFiles" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="validateSigningDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformNativeLibsWithSyncJniLibsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="assembleReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformClassesAndResourcesWithPrepareIntermediateJarsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a bundle containing the library in debug." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="bundleDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="processReleaseJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="generateReleaseAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="lintDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a bundle containing the library in release." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="bundleRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="assembleDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="mockableAndroidJar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':retrofit2LoaderCallAdapter'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':retrofit2LoaderCallAdapter'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformClassesAndResourcesWithPrepareIntermediateJarsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="packageReleaseRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="deviceCheck" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformNativeLibsWithIntermediateJniLibsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':retrofit2LoaderCallAdapter'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="processDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on all variants." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="lint" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileReleaseNdk" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="generateDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="install" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="generateDebugAndroidTestBuildConfig" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="processDebugUnitTestJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run unit tests for the release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="testReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build cache directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="cleanBuildCache" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="assembleDefault" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugAndroidTestShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="mergeDebugShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':retrofit2LoaderCallAdapter'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the debug kotlin." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugKotlin" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileReleaseRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles all Debug builds." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="assembleDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="processDebugAndroidTestManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugUnitTestJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="preDebugAndroidTestBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the releaseUnitTest kotlin." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileReleaseUnitTestKotlin" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Extracts Android annotations for the debug variant into the archive file" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="extractDebugAnnotations" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="processDebugAndroidTestJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="processReleaseUnitTestJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="javaPreCompileDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileReleaseShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="mergeReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformNativeLibsWithIntermediateJniLibsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="generateDebugAndroidTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="checkReleaseManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="javaPreCompileDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="verifyReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="packageDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformNativeLibsWithSyncJniLibsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugAndroidTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="mergeReleaseJniLibFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="prepareLintJar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="processReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="deviceAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="mergeDebugAndroidTestAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="processReleaseManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the android (on device) tests for the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="uninstallDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':retrofit2LoaderCallAdapter'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="generateReleaseSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="preReleaseBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles all variants of all applications and secondary packages." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="createFullJarDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileReleaseUnitTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs the android (on device) tests for the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="installDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformClassesWithDexBuilderForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="mergeDebugAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="javaPreCompileReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the debugUnitTest kotlin." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugUnitTestKotlin" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="javaPreCompileRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all device checks on currently connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="connectedCheck" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs and runs the tests for debug on connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="connectedDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Uninstall all applications." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="uninstallAll" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformNativeLibsWithMergeJniLibsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles all the Test applications." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="assembleAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="processDebugAndroidTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Extracts Android annotations for the release variant into the archive file" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="extractReleaseAnnotations" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugAidl" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="mergeDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="preDebugUnitTestBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileLint" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="generateDebugAndroidTestResValues" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformNativeLibsWithMergeJniLibsForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="mergeReleaseShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the Android dependencies of the project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="androidDependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugAndroidTestNdk" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugUnitTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformNativeLibsWithMergeJniLibsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformDexArchiveWithExternalLibsDexMergerForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="generateDebugSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="mergeDebugAndroidTestJniLibFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="extractProguardFiles" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="assembleDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="processDebugJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="consumeConfigAttr" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="generateDebugAndroidTestAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileReleaseJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run unit tests for all variants." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugNdk" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="mergeDebugAndroidTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="preReleaseUnitTestBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="generateDebugResValues" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="javaPreCompileDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run unit tests for the debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="testDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="connectedAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the debugAndroidTest kotlin." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugAndroidTestKotlin" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="preBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformResourcesWithMergeJavaResForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileReleaseSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileReleaseUnitTestJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileReleaseAidl" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on the Release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="lintRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="generateDebugAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformDexArchiveWithDexMergerForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':retrofit2LoaderCallAdapter'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':retrofit2LoaderCallAdapter'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="checkDebugManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="mergeDebugJniLibFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prints out all the source sets defined in this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="sourceSets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="mergeReleaseAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="createFullJarRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="packageDebugRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="generateReleaseBuildConfig" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="generateReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="platformAttrExtractor" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the signing info for each variant." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="signingReport" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugAndroidTestAidl" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="mergeDebugAndroidTestShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="preDebugBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="generateDebugBuildConfig" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the release kotlin." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileReleaseKotlin" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles all Release builds." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="assembleRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="resolveConfigAttr" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="mergeDebugConsumerProguardFiles" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="compileDebugAndroidTestRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="generateDebugAndroidTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="processDebugManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="packageDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="generateReleaseResValues" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':retrofit2LoaderCallAdapter'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/retrofit2LoaderCallAdapter" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/utils">
           <value>
             <list>
@@ -3803,7 +3254,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/Main2Activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/MainActivity.kt" />
         <option value="$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionBitmap.kt" />
         <option value="$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionFile.kt" />
         <option value="$PROJECT_DIR$/retrofit2LoaderCallAdapter/src/main/AndroidManifest.xml" />
@@ -3819,6 +3269,7 @@
         <option value="$PROJECT_DIR$/retrofit2LoaderCallAdapter/src/main/java/br/com/andersonsoares/retrofit2loadercalladapter/LoaderUnauthorizedCallback.kt" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/MainActivity.kt" />
       </list>
     </option>
   </component>
@@ -3843,39 +3294,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlinUtils" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.other.NonAndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.other.NonAndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kotlinUtils" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -4060,6 +3478,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlin-utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlin-utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -4070,15 +3514,48 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlinUtils" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.other.NonAndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.other.NonAndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlinUtils" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="" />
+    <property name="device.picker.selection" value="TA9650B2YU" />
     <property name="SearchEverywhereHistoryKey" value="conv&#9;ACTION&#9;ConvertJavaToKotlin&#10;convert&#9;ACTION&#9;ConvertJavaToKotlin&#10;convert to kotlin&#9;ACTION&#9;ConvertJavaToKotlin" />
   </component>
   <component name="RecentsManager">
@@ -4171,7 +3648,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520347538681" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520360001802" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -4218,7 +3695,7 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520347538681" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520360001802" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -4250,27 +3727,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -4400,7 +3856,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520347538683" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520360001803" />
       </method>
     </configuration>
     <list size="1">
@@ -4442,10 +3898,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1152" y="23" width="1366" height="696" extended-state="6" />
+    <frame x="1152" y="23" width="1366" height="696" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4453,7 +3909,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22283205" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22277227" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2310231" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -4486,38 +3942,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/MainActivity.kt</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/MainActivity.kt</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/MainActivity.kt</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/android/net/ConnectivityManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="76" column="13" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.2/96e31e5b2ffbe990879db0032888684a2665ca5/kotlin-stdlib-1.1.2-sources.jar!/kotlin/Arrays.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -4649,7 +4078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4713,32 +4141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/Main2Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionBitmap.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="52" column="32" lean-forward="false" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-          <folding>
-            <element signature="e#37#200#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionFile.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -4769,28 +4171,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1830">
           <caret line="144" column="20" lean-forward="false" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/retrofit2LoaderCallAdapter.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/retrofit2LoaderCallAdapter.iml" />
+    <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/src/main/AndroidManifest.xml" />
     <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/src/main/java/br/com/andersonsoares/retrofit2loadercalladapter/LoaderCallback.java" />
     <entry file="file://$PROJECT_DIR$/utils/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -4800,55 +4185,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/build.gradle" />
     <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/src/main/java/br/com/andersonsoares/retrofit2loadercalladapter/LoaderCall.java" />
-    <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="117" lean-forward="false" selection-start-line="19" selection-start-column="117" selection-end-line="19" selection-end-column="117" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/src/main/java/br/com/andersonsoares/retrofit2loadercalladapter/ErrorLoaderCall.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/src/main/java/br/com/andersonsoares/retrofit2loadercalladapter/LoaderCall.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/src/main/java/br/com/andersonsoares/retrofit2loadercalladapter/LoaderUnauthorizedCallback.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/src/main/java/br/com/andersonsoares/retrofit2loadercalladapter/LoaderCallAdapterFactory.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="122" column="58" lean-forward="false" selection-start-line="122" selection-start-column="58" selection-end-line="122" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/src/main/res/values/strings.xml" />
+    <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/src/main/java/br/com/andersonsoares/retrofit2loadercalladapter/ErrorLoaderCall.kt" />
+    <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/src/main/java/br/com/andersonsoares/retrofit2loadercalladapter/LoaderCall.kt" />
+    <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/src/main/java/br/com/andersonsoares/retrofit2loadercalladapter/LoaderUnauthorizedCallback.kt" />
+    <entry file="file://$PROJECT_DIR$/retrofit2LoaderCallAdapter/src/main/java/br/com/andersonsoares/retrofit2loadercalladapter/LoaderCallAdapterFactory.kt" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -4875,30 +4218,201 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionContext.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
+        <state relative-caret-position="750">
           <caret line="57" column="18" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="e#37#349#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1007">
+        <state relative-caret-position="68250">
           <caret line="4757" column="16" lean-forward="false" selection-start-line="4757" selection-start-column="16" selection-end-line="4757" selection-end-column="16" />
           <folding>
-            <element signature="e#202739#202740#0" expanded="true" />
-            <element signature="e#202787#202788#0" expanded="true" />
+            <element signature="e#0#321500#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#40825#40826#0" expanded="false" />
+            <element signature="e#40855#40856#0" expanded="false" />
+            <element signature="e#41242#41243#0" expanded="false" />
+            <element signature="e#41277#41278#0" expanded="false" />
+            <element signature="e#41385#41386#0" expanded="false" />
+            <element signature="e#41420#41421#0" expanded="false" />
+            <element signature="e#41523#41524#0" expanded="false" />
+            <element signature="e#41561#41562#0" expanded="false" />
+            <element signature="e#41675#41676#0" expanded="false" />
+            <element signature="e#41705#41706#0" expanded="false" />
+            <element signature="e#41819#41820#0" expanded="false" />
+            <element signature="e#41856#41857#0" expanded="false" />
+            <element signature="e#42204#42205#0" expanded="false" />
+            <element signature="e#42234#42235#0" expanded="false" />
+            <element signature="e#42371#42372#0" expanded="false" />
+            <element signature="e#42423#42424#0" expanded="false" />
+            <element signature="e#42765#42766#0" expanded="false" />
+            <element signature="e#42838#42839#0" expanded="false" />
+            <element signature="e#52863#52864#0" expanded="false" />
+            <element signature="e#52915#52916#0" expanded="false" />
+            <element signature="e#56504#56505#0" expanded="false" />
+            <element signature="e#56534#56535#0" expanded="false" />
+            <element signature="e#60148#60149#0" expanded="false" />
+            <element signature="e#60195#60196#0" expanded="false" />
+            <element signature="e#61047#61048#0" expanded="false" />
+            <element signature="e#61086#61087#0" expanded="false" />
+            <element signature="e#75100#75101#0" expanded="false" />
+            <element signature="e#75128#75129#0" expanded="false" />
+            <element signature="e#75908#75909#0" expanded="false" />
+            <element signature="e#75935#75936#0" expanded="false" />
+            <element signature="e#96315#96316#0" expanded="false" />
+            <element signature="e#96356#96357#0" expanded="false" />
+            <element signature="e#100671#100672#0" expanded="false" />
+            <element signature="e#100698#100699#0" expanded="false" />
+            <element signature="e#102396#102397#0" expanded="false" />
+            <element signature="e#102423#102424#0" expanded="false" />
+            <element signature="e#104261#104262#0" expanded="false" />
+            <element signature="e#104315#104316#0" expanded="false" />
+            <element signature="e#111731#111732#0" expanded="false" />
+            <element signature="e#111782#111783#0" expanded="false" />
+            <element signature="e#118632#118633#0" expanded="false" />
+            <element signature="e#118684#118685#0" expanded="false" />
+            <element signature="e#118854#118855#0" expanded="false" />
+            <element signature="e#118908#118909#0" expanded="false" />
+            <element signature="e#126835#126836#0" expanded="false" />
+            <element signature="e#126863#126864#0" expanded="false" />
+            <element signature="e#128238#128239#0" expanded="false" />
+            <element signature="e#128266#128267#0" expanded="false" />
+            <element signature="e#131056#131057#0" expanded="false" />
+            <element signature="e#131084#131085#0" expanded="false" />
+            <element signature="e#132314#132315#0" expanded="false" />
+            <element signature="e#132342#132343#0" expanded="false" />
+            <element signature="e#142559#142560#0" expanded="false" />
+            <element signature="e#142586#142587#0" expanded="false" />
+            <element signature="e#154521#154522#0" expanded="false" />
+            <element signature="e#154558#154559#0" expanded="false" />
+            <element signature="e#158869#158870#0" expanded="false" />
+            <element signature="e#158926#158927#0" expanded="false" />
+            <element signature="e#159262#159263#0" expanded="false" />
+            <element signature="e#159319#159320#0" expanded="false" />
+            <element signature="e#159621#159622#0" expanded="false" />
+            <element signature="e#159659#159660#0" expanded="false" />
+            <element signature="e#161532#161533#0" expanded="false" />
+            <element signature="e#161559#161560#0" expanded="false" />
+            <element signature="e#163261#163262#0" expanded="false" />
+            <element signature="e#163302#163303#0" expanded="false" />
+            <element signature="e#163496#163497#0" expanded="false" />
+            <element signature="e#163541#163542#0" expanded="false" />
+            <element signature="e#165251#165252#0" expanded="false" />
+            <element signature="e#165287#165288#0" expanded="false" />
+            <element signature="e#172336#172337#0" expanded="false" />
+            <element signature="e#172371#172372#0" expanded="false" />
+            <element signature="e#175694#175695#0" expanded="false" />
+            <element signature="e#175740#175741#0" expanded="false" />
+            <element signature="e#177495#177496#0" expanded="false" />
+            <element signature="e#177549#177550#0" expanded="false" />
+            <element signature="e#204580#204581#0" expanded="false" />
+            <element signature="e#204626#204627#0" expanded="false" />
+            <element signature="e#220459#220460#0" expanded="false" />
+            <element signature="e#220486#220487#0" expanded="false" />
+            <element signature="e#227543#227544#0" expanded="false" />
+            <element signature="e#227570#227571#0" expanded="false" />
+            <element signature="e#231249#231250#0" expanded="false" />
+            <element signature="e#231281#231282#0" expanded="false" />
+            <element signature="e#231460#231461#0" expanded="false" />
+            <element signature="e#231493#231494#0" expanded="false" />
+            <element signature="e#232057#232058#0" expanded="false" />
+            <element signature="e#232103#232104#0" expanded="false" />
+            <element signature="e#234044#234045#0" expanded="false" />
+            <element signature="e#234098#234099#0" expanded="false" />
+            <element signature="e#235812#235813#0" expanded="false" />
+            <element signature="e#235836#235837#0" expanded="false" />
+            <element signature="e#238012#238013#0" expanded="false" />
+            <element signature="e#238066#238067#0" expanded="false" />
+            <element signature="e#247972#247973#0" expanded="false" />
+            <element signature="e#248005#248006#0" expanded="false" />
+            <element signature="e#250282#250283#0" expanded="false" />
+            <element signature="e#250324#250325#0" expanded="false" />
+            <element signature="e#250916#250917#0" expanded="false" />
+            <element signature="e#250945#250946#0" expanded="false" />
+            <element signature="e#250985#250986#0" expanded="false" />
+            <element signature="e#251019#251020#0" expanded="false" />
+            <element signature="e#257859#257860#0" expanded="false" />
+            <element signature="e#257918#257919#0" expanded="false" />
+            <element signature="e#259327#259328#0" expanded="false" />
+            <element signature="e#259382#259383#0" expanded="false" />
+            <element signature="e#260539#260540#0" expanded="false" />
+            <element signature="e#260566#260567#0" expanded="false" />
+            <element signature="e#271571#271572#0" expanded="false" />
+            <element signature="e#271599#271600#0" expanded="false" />
+            <element signature="e#272591#272592#0" expanded="false" />
+            <element signature="e#272621#272622#0" expanded="false" />
+            <element signature="e#290603#290604#0" expanded="false" />
+            <element signature="e#290669#290670#0" expanded="false" />
+            <element signature="e#291919#291920#0" expanded="false" />
+            <element signature="e#291951#291952#0" expanded="false" />
+            <element signature="e#303814#303815#0" expanded="false" />
+            <element signature="e#303845#303846#0" expanded="false" />
+            <element signature="e#312724#312725#0" expanded="false" />
+            <element signature="e#312767#312768#0" expanded="false" />
+            <element signature="e#316290#316291#0" expanded="false" />
+            <element signature="e#316322#316323#0" expanded="false" />
+            <element signature="e#317813#317814#0" expanded="false" />
+            <element signature="e#317870#317871#0" expanded="false" />
+            <element signature="e#318144#318145#0" expanded="false" />
+            <element signature="e#318189#318190#0" expanded="false" />
+            <element signature="e#318842#318843#0" expanded="false" />
+            <element signature="e#318886#318887#0" expanded="false" />
+            <element signature="e#318953#318954#0" expanded="false" />
+            <element signature="e#319014#319015#0" expanded="false" />
+            <element signature="e#320784#320785#0" expanded="false" />
+            <element signature="e#320834#320835#0" expanded="false" />
+            <element signature="e#321260#321261#0" expanded="false" />
+            <element signature="e#321321#321322#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/Main2Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-26/android/content/Intent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="8673" column="36" lean-forward="false" selection-start-line="8673" selection-start-column="36" selection-end-line="8673" selection-end-column="52" />
+          <folding>
+            <element signature="e#259453#259454#0" expanded="true" />
+            <element signature="e#259486#259487#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1486">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="438">
+          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
           <folding>
-            <element signature="e#37#497#0" expanded="true" />
+            <element signature="e#37#534#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionBitmap.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
