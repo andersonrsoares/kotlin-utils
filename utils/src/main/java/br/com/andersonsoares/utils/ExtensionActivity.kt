@@ -100,6 +100,9 @@ fun Activity.showDialog(title:String,message:String,positive:String,negative:Str
         Log.e("showDialog", e.toString(), e)
     }
 }
+
+fun Activity.showDialog(messange:String) = showDialog("",messange)
+
 fun Activity.openNavigation(latitude:String,longitude:String){
     try {
         val uri = "google.navigation:q=$latitude,$longitude"

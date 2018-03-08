@@ -1,10 +1,19 @@
 package br.com.andersonsoares.utils
 
+import android.content.Context
 import android.graphics.Bitmap
 import android.util.Base64
-import java.io.ByteArrayOutputStream
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
+import android.provider.MediaStore
+import android.media.ExifInterface
+import android.graphics.BitmapFactory
+import android.graphics.Matrix
+import android.net.Uri
+import android.util.Log
+import java.io.*
+import java.nio.file.Files.exists
+import java.io.File.separator
 
 
 /**
@@ -52,4 +61,38 @@ fun Bitmap.scaleToFitHeight(height: Int): Bitmap {
     } else {
         Bitmap.createBitmap(this)
     }
+}
+
+
+fun Bitmap.saveBitmap(filePath: String, imageType: String, compression: Int) {
+
+    var out: FileOutputStream? = null
+    try {
+        out = FileOutputStream(filePath)
+        // PNG is a loss less format, the compression factor (100) is ignored
+        if (imageType == "png" || imageType == "PNG" || imageType == ".png") {
+            this.compress(Bitmap.CompressFormat.PNG, compression, out)
+        } else if (imageType == "jpg" || imageType == "JPG" || imageType == ".jpg") {
+            this.compress(Bitmap.CompressFormat.JPEG, compression, out)
+        } else if (imageType == "jpeg" || imageType == "JPEG" || imageType == ".jpeg") {
+            this.compress(Bitmap.CompressFormat.JPEG, compression, out)
+        }
+    } catch (e: Exception) {
+        e.printStackTrace()
+    } finally {
+        try {
+            if (out != null) {
+                out!!.close()
+            }
+        } catch (e: IOException) {
+        }
+
+    }
+}
+
+fun Bitmap.getImageUri(inContext: Context): Uri {
+    val bytes = ByteArrayOutputStream()
+    this.compress(Bitmap.CompressFormat.JPEG, 100, bytes)
+    val path = MediaStore.Images.Media.insertImage(inContext.contentResolver, this, "Title", null)
+    return Uri.parse(path)
 }
