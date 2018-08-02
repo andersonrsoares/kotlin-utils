@@ -74,7 +74,6 @@ fun Activity.showDialog(title:String,message:String,callback:(dialog:DialogInter
         // Ignore exceptions if any
         Log.e("showDialog", e.toString(), e)
     }
-
 }
 
 fun Activity.showDialog(title:String,message:String,positive:String,negative:String,callback:(positive:Boolean,negative:Boolean,dialog:DialogInterface) -> Unit) {
@@ -168,10 +167,6 @@ fun Activity.openMaps(latitude:String,longitude:String){
     } catch (e2: Exception) {
         Toast.makeText(this, "Não é possivel abrir o Waze.", Toast.LENGTH_SHORT).show()
     }
-}
-
-fun Intent(packageContext: Context, cls: Class<*>) {
-
 }
 
 
