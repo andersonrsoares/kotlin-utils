@@ -8,7 +8,6 @@ import android.os.Bundle
 import android.util.Log
 import br.com.andersonsoares.utils.*
 import kotlinx.android.synthetic.main.activity_main.*
-import org.jetbrains.anko.sdk25.coroutines.onClick
 import java.io.File
 
 class MainActivity : AppCompatActivity() {
