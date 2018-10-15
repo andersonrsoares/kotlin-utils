@@ -86,8 +86,7 @@ open class LocationActivity : BaseActivity() {
 
         return null
     }
-
-
+    
     open fun onLocationChanged(location: Location?) {
         mCurrentLocation = location
     }
