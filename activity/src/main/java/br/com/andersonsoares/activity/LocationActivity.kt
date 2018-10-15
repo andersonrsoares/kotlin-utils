@@ -86,7 +86,7 @@ open class LocationActivity : BaseActivity() {
 
         return null
     }
-    
+
     open fun onLocationChanged(location: Location?) {
         mCurrentLocation = location
     }
@@ -142,7 +142,7 @@ open class LocationActivity : BaseActivity() {
     /**
      * Removes location updates from the FusedLocationApi.
      */
-    private fun stopLocationUpdates() {
+    open fun stopLocationUpdates() {
         // It is a good practice to remove location requests when the activity is in a paused or
         // stopped state. Doing so helps battery performance and is especially
         // recommended in applications that request frequent location updates.
@@ -161,9 +161,8 @@ open class LocationActivity : BaseActivity() {
      * Requests location updates from the FusedLocationApi. Note: we don't call this unless location
      * runtime permission has been granted.
      */
-    private fun startLocationUpdates() {
+    open fun startLocationUpdates() {
         // Begin by checking if the device has the necessary location settings.
-
         mSettingsClient?.let {
             it.checkLocationSettings(mLocationSettingsRequest)
                 .addOnSuccessListener(this, object : OnSuccessListener<LocationSettingsResponse> {
@@ -265,7 +264,7 @@ open class LocationActivity : BaseActivity() {
      * These settings are appropriate for mapping applications that show real-time location
      * updates.
      */
-    private fun createLocationRequest() {
+    open fun createLocationRequest() {
         mLocationRequest = LocationRequest()
         mLocationRequest?.let {
             // Sets the desired interval for active location updates. This interval is

@@ -12,11 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0419f89-b630-459c-85e2-d1d2c24be7af" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/LocationActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/LocationActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/MainActivity.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,8 +90,13 @@
       <file leaf-file-name="LocationActivity.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/LocationActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
+            <state relative-caret-position="1733">
+              <caret line="265" column="7" lean-forward="true" selection-start-line="265" selection-start-column="7" selection-end-line="265" selection-end-column="7" />
+              <folding>
+                <element signature="e#7881#7920#0" expanded="true" />
+                <element signature="e#13878#13906#1" expanded="true" />
+                <element signature="e#13908#13957#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,6 +148,9 @@
       <find>mLocationCallback</find>
       <find>onLocation</find>
       <find>onLocationChanged</find>
+      <find>createLocationRequest</find>
+      <find>stop</find>
+      <find>request</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -4915,6 +4920,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
           <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+          <folding>
+            <element signature="e#7881#7920#0" expanded="true" />
+            <element signature="e#13878#13906#1" expanded="true" />
+            <element signature="e#13908#13957#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -5112,8 +5122,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/LocationActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
+        <state relative-caret-position="1733">
+          <caret line="265" column="7" lean-forward="true" selection-start-line="265" selection-start-column="7" selection-end-line="265" selection-end-column="7" />
+          <folding>
+            <element signature="e#7881#7920#0" expanded="true" />
+            <element signature="e#13878#13906#1" expanded="true" />
+            <element signature="e#13908#13957#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
