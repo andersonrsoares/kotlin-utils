@@ -1,14 +1,11 @@
 package br.com.andersonsoares.utils
 
 import android.content.Context
-import java.io.File
 import android.graphics.Bitmap
 import android.media.ExifInterface
 import android.graphics.BitmapFactory
 import android.graphics.Matrix
 import android.util.Log
-import java.io.FileInputStream
-import java.io.FileNotFoundException
 import java.lang.Exception
 import android.content.Intent
 import android.net.Uri
@@ -16,7 +13,7 @@ import android.os.AsyncTask
 import android.webkit.MimeTypeMap
 import android.util.Base64
 import org.jetbrains.anko.doAsync
-import java.io.ByteArrayOutputStream
+import java.io.*
 
 
 /**
@@ -192,4 +189,97 @@ fun File.getMineType(): String {
     return myMime.getMimeTypeFromExtension(extension)
 }
 
+
+fun File.saveToTemp(context: Context, file: File, requiredHeight: Int): File {
+    try {
+        var extension = "jpg"
+        if (file.absolutePath.endsWith(".png")) {
+            extension = "png"
+        }
+
+        val picturePath = file.absolutePath
+
+        val outputDir = context.cacheDir
+        val outputFile = File.createTempFile("temptoupload", extension, outputDir)
+
+        file.copyFile(outputFile.absolutePath)
+
+        val exifInterface = ExifInterface(picturePath)
+        val orientation = exifInterface.getAttributeInt(ExifInterface.TAG_ORIENTATION, 1)
+        var width = exifInterface.getAttributeInt(ExifInterface.TAG_IMAGE_WIDTH, 0)
+        var height = exifInterface.getAttributeInt(ExifInterface.TAG_IMAGE_LENGTH, 0)
+
+        if (width == 0 || height == 0) {
+            val o = BitmapFactory.Options()
+            o.inJustDecodeBounds = true
+            BitmapFactory.decodeStream(FileInputStream(picturePath), null, o)
+            width = o.outWidth
+            height = o.outHeight
+        }
+
+
+        var rotationDegrees = 0
+
+        when (orientation) {
+            ExifInterface.ORIENTATION_ROTATE_90 ->
+                //if(width > height)
+                rotationDegrees = 90
+            ExifInterface.ORIENTATION_TRANSPOSE -> rotationDegrees = 90
+            ExifInterface.ORIENTATION_ROTATE_180, ExifInterface.ORIENTATION_FLIP_VERTICAL -> rotationDegrees = 180
+            ExifInterface.ORIENTATION_ROTATE_270, ExifInterface.ORIENTATION_TRANSVERSE -> rotationDegrees = 270
+            else -> rotationDegrees = 0
+        }
+        //int requiredHeight = 1000;
+        //if (rotationDegrees != 0) {
+
+        // Find the correct scale value. It should be the power of 2.
+        var scale = 1
+        while (width / scale / 2 >= requiredHeight && height / scale / 2 >= requiredHeight) {
+            scale *= 2
+        }
+        // Decode with inSampleSize
+        val o2 = BitmapFactory.Options()
+        o2.inSampleSize = scale
+
+        val bitmap = BitmapFactory.decodeStream(FileInputStream(picturePath), null, o2)
+
+        val w = bitmap!!.width
+        val h = bitmap.height
+        // Setting pre rotate
+        val mtx = Matrix()
+        mtx.preRotate(rotationDegrees.toFloat())
+
+        // Rotating Bitmap & convert to ARGB_8888, required by tess
+        val image = Bitmap.createBitmap(bitmap, 0, 0, w, h, mtx, false)
+        val out = FileOutputStream(picturePath)
+        if (picturePath.endsWith(".png")) {
+            image.compress(Bitmap.CompressFormat.PNG, 100, out)
+        } else {
+            image.compress(Bitmap.CompressFormat.JPEG, 100, out)
+        }
+        return outputFile
+    } catch (ex: Throwable) {
+        ex.printStackTrace()
+        return file
+    }
+}
+
+@Throws(IOException::class)
+fun File.copyFile(outFileName: String) {
+    println("outFileName ::$outFileName")
+    val  inStream = FileInputStream(this)
+    val outStream = FileOutputStream(outFileName)
+
+    val buffer = ByteArray(1024)
+    var length = inStream.read(buffer)
+    while (length    > 0 )
+    {
+        outStream.write(buffer, 0, length)
+        length = inStream.read(buffer)
+    }
+    inStream.close()
+    outStream.flush()
+    outStream.close()
+
+}
 

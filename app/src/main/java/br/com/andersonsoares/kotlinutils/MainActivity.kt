@@ -25,12 +25,14 @@ class MainActivity : LocationActivity() {
             dialog.dismiss()
         })
 
-       var v = BitmapFactory.decodeResource(resources, R.mipmap.ic_launcher)
-        v.getBase64 { base ->
-            Log.d("va",base)
-        }
 
-        Log.d("va1","")
+
+//       var v = BitmapFactory.decodeResource(resources, R.mipmap.ic_launcher)
+//        v.getBase64 { base ->
+//            Log.d("va",base)
+//        }
+//
+//        Log.d("va1","")
     }
 
     override fun onLocationChanged(location: Location?) {

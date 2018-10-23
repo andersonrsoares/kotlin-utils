@@ -75,7 +75,7 @@ fun Activity.showDialog(title:String,message:String,callback:(dialog:DialogInter
         Log.e("showDialog", e.toString(), e)
     }
 }
-
+//colocar tema
 fun Activity.showDialog(title:String,message:String,positive:String,negative:String,callback:(positive:Boolean,negative:Boolean,dialog:DialogInterface) -> Unit) {
     try {
 
