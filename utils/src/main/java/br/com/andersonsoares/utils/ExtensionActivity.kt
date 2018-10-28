@@ -45,7 +45,7 @@ fun Activity.showKeyboard() {
 fun Activity.showDialog(title:String,message:String) {
     try {
 
-        val builder = AlertDialog.Builder(this)
+        val builder = AlertDialog.Builder(this,R.style.AppTheme_AlertDialog)
         builder.setTitle(title).setMessage(message)
                 .setPositiveButton("OK", DialogInterface.OnClickListener { dialog, id ->
                     dialog.dismiss()
@@ -61,7 +61,7 @@ fun Activity.showDialog(title:String,message:String) {
 fun Activity.showDialog(title:String,message:String,callback:(dialog:DialogInterface) -> Unit) {
     try {
 
-        val builder = AlertDialog.Builder(this)
+        val builder = AlertDialog.Builder(this,R.style.AppTheme_AlertDialog)
         builder.setTitle(title).setMessage(message)
                 .setPositiveButton("OK", DialogInterface.OnClickListener { dialog, id ->
                     if(callback!=null)
@@ -79,7 +79,7 @@ fun Activity.showDialog(title:String,message:String,callback:(dialog:DialogInter
 fun Activity.showDialog(title:String,message:String,positive:String,negative:String,callback:(positive:Boolean,negative:Boolean,dialog:DialogInterface) -> Unit) {
     try {
 
-        val builder = AlertDialog.Builder(this)
+        val builder = AlertDialog.Builder(this,R.style.AppTheme_AlertDialog)
         builder.setTitle(title).setMessage(message)
                 .setPositiveButton(positive, DialogInterface.OnClickListener { dialog, id ->
                     if(callback!=null)

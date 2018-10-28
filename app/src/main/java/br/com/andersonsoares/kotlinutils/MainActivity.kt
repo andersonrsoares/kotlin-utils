@@ -6,6 +6,7 @@ import android.graphics.BitmapFactory
 import android.location.Location
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.util.Log
 import br.com.andersonsoares.activity.LocationActivity
 import br.com.andersonsoares.utils.*
@@ -24,6 +25,10 @@ class MainActivity : LocationActivity() {
         showDialog("teste","ewwerre",{ dialog ->
             dialog.dismiss()
         })
+        showProgressDialog("teste")
+        Handler().postDelayed({
+            dismissProgressDialog()
+        },5000)
 
 
 
