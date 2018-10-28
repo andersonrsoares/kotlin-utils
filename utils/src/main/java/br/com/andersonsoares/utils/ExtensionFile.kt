@@ -189,6 +189,61 @@ fun File.getMineType(): String {
     return myMime.getMimeTypeFromExtension(extension)
 }
 
+fun File.decodeAndSave(requiredHeight: Int){
+    try {
+        val picturePath = this.absolutePath
+        val exifInterface = ExifInterface(picturePath)
+        val orientation = exifInterface.getAttributeInt(ExifInterface.TAG_ORIENTATION, 1)
+        var width = exifInterface.getAttributeInt(ExifInterface.TAG_IMAGE_WIDTH, 0)
+        var height = exifInterface.getAttributeInt(ExifInterface.TAG_IMAGE_LENGTH, 0)
+
+        if (width == 0 || height == 0) {
+            val o = BitmapFactory.Options()
+            o.inJustDecodeBounds = true
+            BitmapFactory.decodeStream(FileInputStream(picturePath), null, o)
+            width = o.outWidth
+            height = o.outHeight
+        }
+
+        var rotationDegrees = 0
+
+        when (orientation) {
+            ExifInterface.ORIENTATION_ROTATE_90 ->
+                //if(width > height)
+                rotationDegrees = 90
+            ExifInterface.ORIENTATION_TRANSPOSE -> rotationDegrees = 90
+            ExifInterface.ORIENTATION_ROTATE_180, ExifInterface.ORIENTATION_FLIP_VERTICAL -> rotationDegrees = 180
+            ExifInterface.ORIENTATION_ROTATE_270, ExifInterface.ORIENTATION_TRANSVERSE -> rotationDegrees = 270
+            else -> rotationDegrees = 0
+        }
+        //int requiredHeight = 1000;
+        //if (rotationDegrees != 0) {
+
+        // Find the correct scale value. It should be the power of 2.
+        var scale = 1
+        while (width / scale / 2 >= requiredHeight && height / scale / 2 >= requiredHeight) {
+            scale *= 2
+        }
+        // Decode with inSampleSize
+        val o2 = BitmapFactory.Options()
+        o2.inSampleSize = scale
+
+        val bitmap = BitmapFactory.decodeStream(FileInputStream(picturePath), null, o2)
+
+        val w = bitmap.width
+        val h = bitmap.height
+        // Setting pre rotate
+        val mtx = Matrix()
+        mtx.preRotate(rotationDegrees.toFloat())
+
+        Bitmap.createBitmap(bitmap, 0, 0, w, h, mtx, false)
+                .saveBitmap(picturePath,File(picturePath)
+                        .extension,70)
+
+    } catch (ex: Throwable) {
+        ex.printStackTrace()
+    }
+}
 
 fun File.saveToTemp(context: Context, file: File, requiredHeight: Int): File {
     try {
