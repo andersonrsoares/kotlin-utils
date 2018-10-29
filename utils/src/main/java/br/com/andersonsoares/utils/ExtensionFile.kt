@@ -315,7 +315,7 @@ fun File.saveToTemp(context: Context,requiredHeight: Int): File {
         return outputFile
     } catch (ex: Throwable) {
         ex.printStackTrace()
-        return file
+        return this
     }
 }
 
