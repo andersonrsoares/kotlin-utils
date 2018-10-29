@@ -245,19 +245,19 @@ fun File.decodeAndSave(requiredHeight: Int){
     }
 }
 
-fun File.saveToTemp(context: Context, file: File, requiredHeight: Int): File {
+fun File.saveToTemp(context: Context,requiredHeight: Int): File {
     try {
         var extension = "jpg"
-        if (file.absolutePath.endsWith(".png")) {
+        if (this.absolutePath.endsWith(".png")) {
             extension = "png"
         }
 
-        val picturePath = file.absolutePath
+        val picturePath = this.absolutePath
 
         val outputDir = context.cacheDir
         val outputFile = File.createTempFile("temptoupload", extension, outputDir)
 
-        file.copyFile(outputFile.absolutePath)
+        this.copyFile(outputFile.absolutePath)
 
         val exifInterface = ExifInterface(picturePath)
         val orientation = exifInterface.getAttributeInt(ExifInterface.TAG_ORIENTATION, 1)
