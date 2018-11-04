@@ -14,6 +14,9 @@ open class BaseActivity : AppCompatActivity() {
     val REQUEST_PERMISSIONS_CODE_EXTERNAL = 130
     val REQUEST_PERMISSIONS_CODE_CAMERA = 131
 
+    private var permissionCamera:(granted:Boolean) -> Unit = {}
+    private var permissionPhone:(granted:Boolean) -> Unit = {}
+    private var permissionExternal:(granted:Boolean) -> Unit = {}
 
     internal var progressDialog: ProgressDialog? = null
     fun showProgressDialog(messange: String) {
@@ -26,7 +29,8 @@ open class BaseActivity : AppCompatActivity() {
     }
 
 
-    private fun requestPermissionsPhone() {
+    private fun requestPermissionsPhone(callbak:(granted:Boolean) -> Unit) {
+        permissionPhone =callbak
         if (ContextCompat.checkSelfPermission(this,
                         Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
 
@@ -34,11 +38,12 @@ open class BaseActivity : AppCompatActivity() {
                     arrayOf(Manifest.permission.CALL_PHONE),
                     REQUEST_PERMISSIONS_PHONE)
         } else {
-            responsePermission(Manifest.permission.CALL_PHONE,true)
+            permissionPhone(true)
         }
     }
 
-    private fun requestPermissionsCamera() {
+    private fun requestPermissionsCamera(callbak:(granted:Boolean) -> Unit) {
+        permissionCamera =callbak
         if (ContextCompat.checkSelfPermission(this,
                         Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
 
@@ -46,12 +51,13 @@ open class BaseActivity : AppCompatActivity() {
                     arrayOf(Manifest.permission.CAMERA),
                     REQUEST_PERMISSIONS_CODE_CAMERA)
         } else {
-            responsePermission(Manifest.permission.CAMERA,true)
+            permissionCamera(true)
         }
     }
 
 
-    private fun requestPermissionsExternalStorage() {
+    private fun requestPermissionsExternalStorage(callbak:(granted:Boolean) -> Unit) {
+        permissionExternal =callbak
         if (ContextCompat.checkSelfPermission(this,
                         Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED ||
                 ContextCompat.checkSelfPermission(this,
@@ -61,7 +67,7 @@ open class BaseActivity : AppCompatActivity() {
                             Manifest.permission.WRITE_EXTERNAL_STORAGE),
                     REQUEST_PERMISSIONS_CODE_EXTERNAL)
         } else {
-            responsePermission(Manifest.permission.WRITE_EXTERNAL_STORAGE,true)
+            permissionExternal(true)
         }
 
     }
@@ -71,44 +77,44 @@ open class BaseActivity : AppCompatActivity() {
             progressDialog!!.dismiss()
     }
 
-    open fun responsePermission(type:String,granted:Boolean){
-        Log.d("callPermission", "$type $granted")
-    }
+//    open fun responsePermission(type:String,granted:Boolean){
+//        Log.d("callPermission", "$type $granted")
+//    }
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
         if(REQUEST_PERMISSIONS_PHONE == requestCode){
             for (i in 0 until permissions.size) {
                 if (permissions[i] == Manifest.permission.CALL_PHONE && grantResults[i] == PackageManager.PERMISSION_DENIED) {
-                    responsePermission(Manifest.permission.CALL_PHONE,false)
+                    permissionPhone(true)
                     return
                 }
             }
-            responsePermission(Manifest.permission.CALL_PHONE,true)
+            permissionPhone(true)
         }
 
         if(REQUEST_PERMISSIONS_CODE_EXTERNAL== requestCode){
             for (i in 0 until permissions.size) {
                 if (permissions[i] == Manifest.permission.WRITE_EXTERNAL_STORAGE && grantResults[i] == PackageManager.PERMISSION_DENIED) {
-                    responsePermission(Manifest.permission.WRITE_EXTERNAL_STORAGE,false)
+                    permissionExternal(false)
                     return
                 }
                 if (permissions[i] == Manifest.permission.READ_EXTERNAL_STORAGE && grantResults[i] == PackageManager.PERMISSION_DENIED) {
-                    responsePermission(Manifest.permission.WRITE_EXTERNAL_STORAGE,false)
+                    permissionExternal(false)
                     return
                 }
             }
-            responsePermission(Manifest.permission.WRITE_EXTERNAL_STORAGE,true)
+            permissionExternal(true)
 
         }
 
         if(REQUEST_PERMISSIONS_CODE_CAMERA == requestCode){
             for (i in 0 until permissions.size) {
                 if (permissions[i] == Manifest.permission.CAMERA && grantResults[i] == PackageManager.PERMISSION_DENIED) {
-                    responsePermission(Manifest.permission.CAMERA,false)
+                    permissionCamera(false)
                     return
                 }
             }
-            responsePermission(Manifest.permission.CAMERA,true)
+            permissionCamera(true)
 
         }
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);

@@ -12,14 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0419f89-b630-459c-85e2-d1d2c24be7af" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/BaseActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/GeocoderUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/GeocoderUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,20 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="37" selection-start-column="37" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BaseActivity.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/BaseActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="341">
+              <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -81,7 +65,7 @@
       <file leaf-file-name="LocationActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/LocationActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="4470">
               <caret line="319" column="38" lean-forward="true" selection-start-line="319" selection-start-column="38" selection-end-line="319" selection-end-column="38" />
               <folding>
                 <element signature="e#13868#13896#1" expanded="true" />
@@ -94,8 +78,17 @@
       <file leaf-file-name="GeocoderUtils.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/GeocoderUtils.kt">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtensionString.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionString.kt">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -4853,6 +4846,49 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="activity" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="kotlin-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="utils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -5032,7 +5068,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541344879797</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="savetemp">
+      <created>1541368629425</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541368629425</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -5260,13 +5303,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionGeocoder.kt" />
-    <entry file="file://$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionString.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-824">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/content/pm/PackageManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -5353,16 +5389,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/GeocoderUtils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/LocationActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="4470">
           <caret line="319" column="38" lean-forward="true" selection-start-line="319" selection-start-column="38" selection-end-line="319" selection-end-column="38" />
           <folding>
             <element signature="e#13868#13896#1" expanded="true" />
@@ -5371,10 +5400,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/GeocoderUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionString.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/BaseActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="341">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
         </state>
       </provider>
     </entry>
