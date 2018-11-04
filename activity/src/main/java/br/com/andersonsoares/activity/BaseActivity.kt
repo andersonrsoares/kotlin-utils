@@ -85,7 +85,7 @@ open class BaseActivity : AppCompatActivity() {
         if(REQUEST_PERMISSIONS_PHONE == requestCode){
             for (i in 0 until permissions.size) {
                 if (permissions[i] == Manifest.permission.CALL_PHONE && grantResults[i] == PackageManager.PERMISSION_DENIED) {
-                    permissionPhone(true)
+                    permissionPhone(false)
                     return
                 }
             }
@@ -115,7 +115,6 @@ open class BaseActivity : AppCompatActivity() {
                 }
             }
             permissionCamera(true)
-
         }
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
