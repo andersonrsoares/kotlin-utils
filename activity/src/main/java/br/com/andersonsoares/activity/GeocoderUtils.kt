@@ -9,7 +9,6 @@ import org.jetbrains.anko.uiThread
 
 class GeocoderUtils{
     companion object {
-
         fun getLocalizacao(endereco: String, context: Context, callback:(item:LatLng?) -> Unit) {
             try {
                 doAsync {
