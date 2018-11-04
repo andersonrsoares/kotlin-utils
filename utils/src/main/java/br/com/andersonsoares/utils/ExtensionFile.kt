@@ -14,6 +14,7 @@ import android.webkit.MimeTypeMap
 import android.util.Base64
 import org.jetbrains.anko.doAsync
 import java.io.*
+import java.util.*
 
 
 /**
@@ -52,6 +53,34 @@ fun Uri.getBase64(context: Context,callback:(base64: String) -> Unit) {
         callback(base)
     }
 }
+
+
+fun Uri.toTempFile(context: Context): File? {
+    try {
+        val inStream = context.contentResolver.openInputStream(this)
+        val outputDir = context.cacheDir
+        val outputFile = File.createTempFile(UUID.randomUUID().toString().replace("-",""),
+                this.path.getExtension(), outputDir)
+
+        val outStream = FileOutputStream(outputFile)
+
+        val buffer = ByteArray(1024)
+        var length = inStream.read(buffer)
+        while (length    > 0 )
+        {
+            outStream.write(buffer, 0, length)
+            length = inStream.read(buffer)
+        }
+        inStream.close()
+        outStream.flush()
+        outStream.close()
+        return outputFile
+    } catch (ex: Exception) {
+        return null
+    }
+
+}
+
 
 fun File.getBase64(): String {
     var baseImage = ""
@@ -189,6 +218,11 @@ fun File.getMineType(): String {
     return myMime.getMimeTypeFromExtension(extension)
 }
 
+fun String.getExtension(): String {
+    val extension = MimeTypeMap.getFileExtensionFromUrl(this)
+    return extension
+}
+
 fun File.decodeAndSave(requiredHeight: Int){
     try {
         val picturePath = this.absolutePath
@@ -245,17 +279,18 @@ fun File.decodeAndSave(requiredHeight: Int){
     }
 }
 
-fun File.saveToTemp(context: Context,requiredHeight: Int): File {
+
+fun File.saveToTemp(context: Context,requiredHeight: Int,name:String = "temptoupload"): File {
     try {
-        var extension = "jpg"
+        var extension = ".jpg"
         if (this.absolutePath.endsWith(".png")) {
-            extension = "png"
+            extension = ".png"
         }
 
         val picturePath = this.absolutePath
 
         val outputDir = context.cacheDir
-        val outputFile = File.createTempFile("temptoupload", extension, outputDir)
+        val outputFile = File.createTempFile(name, extension, outputDir)
 
         this.copyFile(outputFile.absolutePath)
 

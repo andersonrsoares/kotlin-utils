@@ -12,6 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0419f89-b630-459c-85e2-d1d2c24be7af" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionString.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionFile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionFile.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,27 +55,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseActivity.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/BaseActivity.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-              <folding>
-                <element signature="e#40#158#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activity/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,8 +76,29 @@
       <file leaf-file-name="ExtensionFile.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionFile.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="317" column="19" selection-start-line="317" selection-start-column="19" selection-end-line="317" selection-end-column="19" />
+            <state relative-caret-position="308">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="e#37#465#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MimeTypeMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/webkit/MimeTypeMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="45" column="48" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtensionString.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionString.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -150,6 +152,8 @@
       <find>iStream</find>
       <find>myOutput</find>
       <find>pro</find>
+      <find>Uri</find>
+      <find>outputFile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -4591,15 +4595,15 @@
         <option value="$PROJECT_DIR$/utils/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionString.kt" />
         <option value="$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionFile.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-67" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="804" />
+    <option name="height" value="801" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -4843,6 +4847,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
@@ -4855,7 +4860,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -5017,7 +5021,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-67" y="23" width="1440" height="804" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="801" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
@@ -5062,20 +5066,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="tema ajuste" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/activity/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="78" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activity/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/andersonsoares/kotlinutils/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -5344,7 +5334,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/activity/src/main/java/br/com/andersonsoares/activity/BaseActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="150">
           <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding>
             <element signature="e#40#158#0" expanded="true" />
@@ -5402,10 +5392,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/webkit/MimeTypeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionString.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utils/src/main/java/br/com/andersonsoares/utils/ExtensionFile.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="317" column="19" selection-start-line="317" selection-start-column="19" selection-end-line="317" selection-end-column="19" />
+        <state relative-caret-position="308">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#37#465#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
